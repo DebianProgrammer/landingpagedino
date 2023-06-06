@@ -99,7 +99,7 @@ html {
 
 #showsub2 {
   position: absolute;
-  bottom: -41%;
+  bottom: -38%;
   right: 12%;
   font-size: 20px;
   font-family: 'Roboto Mono', monospace;
@@ -147,7 +147,7 @@ html {
   font-family: 'Roboto Mono', monospace;
   font-size: 48px;
   position: absolute;
-  bottom: -109%;
+  bottom: -120%;
   right: 43%;
   transition: 0.5s;
 }

@@ -75,9 +75,9 @@ html {
 
 #showsub1 {
   position: absolute;
-  bottom: -4%;
+  bottom: -6%;
   right: 60%;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -99,9 +99,9 @@ html {
 
 #showsub2 {
   position: absolute;
-  bottom: -39%;
+  bottom: -41%;
   right: 12%;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -123,9 +123,9 @@ html {
 
 #showsub3 {
   position: absolute;
-  bottom: -75%;
+  bottom: -77%;
   right: 62%;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto Mono', monospace;
 }
 

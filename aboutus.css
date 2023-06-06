@@ -1,0 +1,19 @@
+#aboutheader {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 48px;
+}
+
+#aboutsubtitle {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32px;
+}
+
+.content {
+    border-style: solid;
+    border-color: #1eff00;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

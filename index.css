@@ -1,0 +1,160 @@
+html {
+  background-color: #000000;
+  color: green;
+}
+
+.topnav {
+  background-color: #111;
+  /*overflow: hidden;*/
+  display: flex;
+  flex-direction: row;
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 12px;
+  width: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: fill-available;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1eff00;
+  color: black;
+}
+
+#mainhome {
+  position: absolute;
+  bottom: 40%;
+  right: 41%;
+  font-size: 64px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#mainlogo {
+  width: 20%;
+  position: absolute;
+  top: 9%;
+  right: 41%;
+}
+
+#word2 {
+  font-size: 24px;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  bottom: 40%;
+  right: 41%;
+}
+/*show 1*/
+#show1 {
+  width: 50%;
+  bottom: -10%;
+  right: 5%;
+  position: absolute;
+}
+
+#showwords1 {
+  position: absolute;
+  bottom: 0%;
+  right: 62%;
+  font-size: 32px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#showsub1 {
+  position: absolute;
+  bottom: -4%;
+  right: 60%;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*show 2*/
+#show2 {
+  width: 14%;
+  bottom: -50%;
+  right: 72%;
+  position: absolute;
+}
+
+#showwords2 {
+  position: absolute;
+  bottom: -35%;
+  right: 18%;
+  font-size: 32px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#showsub2 {
+  position: absolute;
+  bottom: -39%;
+  right: 12%;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*show 3*/
+#show3 {
+  width: 20%;
+  bottom: -80%;
+  right: 20%;
+  position: absolute;
+}
+
+#showwords3 {
+  position: absolute;
+  bottom: -71%;
+  right: 72%;
+  font-size: 32px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#showsub3 {
+  position: absolute;
+  bottom: -75%;
+  right: 62%;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#playpretext {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 48px;
+  position: absolute;
+  left:50%;
+  top: 180%;
+  bottom: 26%;
+  transform: translate(-50%, -50%);
+}
+
+#play {
+  text-decoration: none;
+  padding: 20px;
+  border-style:solid;
+  border-color: #1eff00;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 48px;
+  position: absolute;
+  bottom: -109%;
+  right: 43%;
+  transition: 0.5s;
+}
+
+#play:hover {
+  border-color: black;
+  color:black;
+  background-color: #1eff00;
+  cursor: pointer;
+}
